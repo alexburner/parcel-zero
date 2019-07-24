@@ -20,3 +20,11 @@ worker.postMessage(JSON.stringify({ foo: "bar" }));
 setTimeout(() => {
   import("./dynamic").then(dynamic => dynamic.foo());
 }, 1000);
+
+//
+// Test React
+//
+import { createElement, Component } from "react";
+import { MyComponent } from "./MyComponent";
+import ReactDOM from "react-dom";
+ReactDOM.render(createElement(MyComponent), document.getElementById("root"));
