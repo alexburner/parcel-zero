@@ -18,7 +18,7 @@
     "typescript": "3.5.3"
   },
   "dependencies": {
-    "d3": "5.9.7",
+    "d3": "7.6.1",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   }
